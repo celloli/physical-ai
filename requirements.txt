@@ -1,0 +1,3 @@
+streamlit==1.58.0
+# Streamlit 1.58.0の配信処理と互換性のあるバージョンに固定する。
+starlette==0.52.1
