@@ -91,7 +91,7 @@ def topics_page(topics):
             "分野": t["field"], "トピック": t["name"], "状態": t["status"],
             "理解度": str(t["understanding"]) if t["understanding"] else "未評価",
             "次にやること": t["next_action"],
-        } for t in filtered], hide_index=True, use_container_width=True)
+        } for t in filtered], hide_index=True, width="stretch")
     else:
         st.info("条件に合うトピックがありません。新しいトピックも追加できます。")
     selected = st.selectbox("追加・編集するトピック", [None] + filtered,

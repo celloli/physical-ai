@@ -76,7 +76,7 @@ app.py                   画面、入力フォーム、ページ切り替え
 learning.py              状態・分野の定義、進捗計算、おすすめ
 database.py              SQLiteテーブル作成、保存と読み込み
 seed_data.py             初回の20トピック
-requirements.txt         Streamlitのバージョン指定
+requirements.txt         Streamlitと互換性のある依存関係のバージョン指定
 .streamlit/config.toml   配色、ローカル接続設定
 tests/                   保存・計算・画面操作のテスト
 data/learning.db         初回起動時に自動作成（Git管理対象外）
